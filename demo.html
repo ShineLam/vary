@@ -16,11 +16,13 @@
 </head>
 <body>
   <div id="elm">TEST</div>
-  <script src="./transformer.js"></script>
+  <script src="./index.js"></script>
   <script>
     var elm = document.querySelector('#elm')
     elm.addEventListener('touchstart', () => {
-      vary(elm, 'rotateY', 60)
+      vary(elm)
+      elm.rotate = 90
+      elm.scale = 2
     })
   </script>
 </body>
