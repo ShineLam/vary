@@ -1,5 +1,5 @@
 # vary
-### 封装实现transform
+### 封装使用transform
 
 ```js
 /** 
